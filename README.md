@@ -1,5 +1,5 @@
 ## Zimbra Letsencrypt SSL Renew
-Automate the deploy of letsencrypt certificates on Zimbra.
+Automate the deploy of letsencrypt certificates to Zimbra.
 
 **Based on Zimbra Article  KB 22434** : https://wiki.zimbra.com/wiki/Installing_a_LetsEncrypt_SSL_Certificate
 
