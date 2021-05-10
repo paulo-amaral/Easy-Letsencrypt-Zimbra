@@ -1,2 +1,7 @@
-# Easy-Letsencrypt-Zimbra
-Zimbra Letsencrypt SSL Renew made easy
+# # Zimbra Letsencrypt SSL Renew
+
+
+## Let's Begin
+```sh
+git clone https://github.com/paulo-amaral/Easy-Letsencrypt-Zimbra.git
+```
