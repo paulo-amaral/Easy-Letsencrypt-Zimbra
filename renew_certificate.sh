@@ -48,3 +48,7 @@ cp /opt/zimbra/ssl/letsencrypt/privkey.pem /opt/zimbra/ssl/zimbra/commercial/com
 #Final SSL deployment
 runuser -l zimbra -c 'cd /opt/zimbra/ssl/letsencrypt/ && /opt/zimbra/bin/zmcertmgr deploycrt comm cert.pem chain.pem'
 runuser -l zimbra -c 'zmcontrol restart'
+
+#set crontab
+(crontab -l; echo "12 5 * * * root /opt/scripts/renew_certificate.sh")|awk '!x[$0]++'|crontab -
+
