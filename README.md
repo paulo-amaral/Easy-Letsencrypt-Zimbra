@@ -1,5 +1,7 @@
 # # Zimbra Letsencrypt SSL Renew
+Automate the deploy of letsencrypt certificates to Zimbra.
 
+**Based on Zimbra Article  KB 22434** : https://wiki.zimbra.com/wiki/Installing_a_LetsEncrypt_SSL_Certificate
 
 ## Let's Begin
 ```sh
@@ -14,4 +16,6 @@ chmod +x renew_certificate.sh
 ```
 sh renew_certificate.sh
 ```
+
+##Set crontab
 
