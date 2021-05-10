@@ -17,5 +17,6 @@ chmod +x renew_certificate.sh
 sh renew_certificate.sh
 ```
 
-##Set crontab
+## Set crontab
+This script automatic setup a crontab/cron job to schedule the renew of certificate.
 
